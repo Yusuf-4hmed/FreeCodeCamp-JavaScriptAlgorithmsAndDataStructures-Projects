@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+</style>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>Is it a palindrome?</h1>
+      <div id="palindrome-checker">
+        <h3>Enter text to find out:</h3>
+        <input id="text-input" name="text-input" type="text">
+        <button id="check-btn" name="check-btn" type="button" onclick="checkPalindrome()">check</button>
+        <p id="result"></p>
+      </div>
+    </main>
+  </body>
+</html>
