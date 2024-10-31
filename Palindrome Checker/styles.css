@@ -1,0 +1,54 @@
+body {
+  background-color: 010021;
+  font-family: Inter;
+}
+
+main {
+  padding-top: 100px;
+  padding-bottom: auto;
+}
+
+h1{
+  color: white;
+  font-size: 70px;
+  text-align: center;
+}
+
+h3{
+  margin-top: 60px;
+  color: white;
+  font-size: 30px;
+}
+
+#result {
+  color: white;
+}
+#palindrome-checker {
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, .1);
+  max-width: 445px;
+  height: 235px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  
+}
+
+#text-input {
+  height: 30px;
+  border-radius: 5px;
+  margin-top:
+}
+
+#check-btn:hover{
+  transform: translateY(-5px);
+  transition: .5s;
+  cursor: pointer;
+}
+
+#check-btn {
+  height: 30px;
+  border-radius: 5px;
+  width: 70px;
+  transition: .5s;
+}
