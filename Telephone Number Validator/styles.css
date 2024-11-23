@@ -1,0 +1,82 @@
+body {
+  background-color: #010021;
+  font-family: Inter;
+}
+
+main {
+  padding-top: 100px;
+  padding-bottom: auto;
+}
+
+h1{
+  color: white;
+  font-size: 70px;
+  text-align: center;
+}
+
+h3{
+  margin-top: 60px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 30px;
+}
+
+#result {
+  color: white;
+}
+
+#phone-number-checker {
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, .1);
+  max-width: 445px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  
+}
+
+#user-input {
+  height: 40px;
+  width: 300px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 27px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#check-btn:hover{
+  transform: translateY(-5px);
+  transition: .5s;
+  cursor: pointer;
+}
+
+#check-btn {
+  height: 36px;
+  border-radius: 5px;
+  width: 70px;
+  transition: .5s;
+}
+
+#clear-btn:hover {
+  transform: translateY(-5px);
+  transition: .5s;
+  cursor: pointer;
+}
+
+#clear-btn {
+  height: 36px;
+  border-radius: 5px;
+  width: 70px;
+  transition: .5s;
+}
+
+
+#results-div {
+  color: white;
+  margin-top: 12px;
+  height: auto;
+}
