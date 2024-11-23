@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US Telephone Validator</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+</style>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>Telephone Number Validator</h1>
+      <div id="phone-number-checker">
+        <h3>Enter a phone number:</h3>
+        <input id="user-input" name="user-input">
+        <button id="check-btn" name="check-btn" type="button" onclick="numberVali()">Check</button>
+        <button id="clear-btn" name="clear-btn" type="button" onclick="numberClear()">Clear</button>
+        <div id="results-div"></div>
+      </div>
+    </main>
+  </body>
+</html>
