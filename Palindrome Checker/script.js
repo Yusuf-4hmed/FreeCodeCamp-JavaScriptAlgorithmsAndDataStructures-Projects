@@ -21,3 +21,13 @@ for(let i = 0; i<inputArr.length; i++){
   result.innerText = `${inputText} is a palindrome`
   confetti();
   }
+
+const inputText = document.getElementById("text-input")
+
+inputText.addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    
+    document.getElementById("check-btn").click();
+  }
+});
+  
