@@ -43,4 +43,11 @@ function convertToRoman() {
     }
 }
 
-convertBtn.addEventListener('click', convertToRoman);
+const inputNumber = document.getElementById("number")
+
+inputNumber.addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    
+    document.getElementById("convert-btn").click();
+  }
+});
