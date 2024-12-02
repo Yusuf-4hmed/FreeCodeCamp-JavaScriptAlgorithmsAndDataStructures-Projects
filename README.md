@@ -3,5 +3,5 @@
 <p>Course from FreeCodeCamp</p>
 </div>
 <div align="center"> 
-  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
+  <img src="https://github.com/Yusuf-4hmed/FreeCodeCamp-JavaScriptAlgorithmsAndDataStructures-Projects/blob/main/Screenshot%202024-12-02%20085024.png" alt="screenshot" />
 </div>
